@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://docs.fullctl.com/IX%20Admin%20Guide/Linking-to-fullCtl/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Linking to fullCtl, Installing and Testing Your Containers - docs.fullctl.com</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Linking to fullCtl, Installing and Testing Your Containers";
+        var mkdocs_page_input_path = "IX Admin Guide/Linking-to-fullCtl.md";
+        var mkdocs_page_url = "/IX%20Admin%20Guide/Linking-to-fullCtl/";
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> docs.fullctl.com
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../Definitions/">Definitions</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">aaaCtl</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="../../aaaCtl/Sign-up-for-account.md">Sign up for FullCtl</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../aaaCtl/Sign-up-for-PeeringDB/">Sign up for PeeringDB</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../aaaCtl/LogIn.md">Login and Update Settings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../aaaCtl/Add-Organization/">Add Organization</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../aaaCtl/Add-Users/">Add Users</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../aaaCtl/User-Privileges/">User Privileges</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">aclCtl</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../aclCtl/Access-Control-List/">Access Control List</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../aclCtl/Add-a-Rule/">Add a Rule</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../aclCtl/Prioritize-Rules/">Prioritize Rules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../aclCtl/Custom-Templates/">Custom Templates</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">IXCtl</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../ixctl/Import-an-IX/">Import an IX</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../ixctl/Create-an-IX/">Create an IX</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../ixctl/Add-a-Member/">Add a Member</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../ixctl/Share-the-member-list/">Share the Member List</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../ixctl/Add-A-Routeserver/">Add a Route Server</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../ixctl/Delete-Exchange/">Delete Exchange</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">PeerCtl</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/PeerCtl-Definitions/">Definitions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Summary/">Summary</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Add-Peering-Session/">Add Peering Session</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Peering-Settings/">Peering Settings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/AddRemove-Network-Connection/">Add/Remove Network Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Set-MD5-Password/">Set MD5 Password</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Set-Policy-Device-Type/">Set Policy & Device Type</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Templates/">Templates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Request-Peering-1/">Request Peering Option 1</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Request-Peering-2/">Request Peering Option 2</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Custom-Email-Templates/">Custom Email Templates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Peering-Process/">Peering Process</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../PeerCtl/Device-Configuration/">Device Configuration</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">PrefixCtl</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prefixctl/PrefixCtl-Definitions/">Definitions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prefixctl/Add-Prefix-Set/">Add Prefix Set</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prefixctl/Add-ASN/">Add ASN</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prefixctl/API/">API</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prefixctl/Settings/">Settings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prefixctl/Add-Monitor/">Add Monitor</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prefixctl/Check-Reputation/">Check Reputation</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DeviceCtl</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../DeviceCtl/Definitions/">Definitions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../DeviceCtl/Add-Facility/">Add Facility</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../DeviceCtl/Add-Device/">Add Device</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../DeviceCtl/Ports/">Ports</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">docs.fullctl.com</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Linking to fullCtl, Installing and Testing Your Containers</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/fullctl/docs.fullctl.com/edit/master/docs/IX Admin Guide/Linking-to-fullCtl.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="linking-to-fullctl-installing-and-testing-your-containers">Linking to fullCtl, Installing and Testing Your Containers</h1>
+<p>For VMs or basemetal, ixCtl uses systemd to download and manage it’s containers. You can paste this configuration into /etc/systemd/system/fullctl-routeserver.service. If your route server systems require the use of a proxy or other configuration specific to your environment, you can update this template as needed. ixCtl route servers are further configured by a .env file detailed below.</p>
+<pre><code>[Unit]
+Description=fullctl-routeserver.service
+Documentation=https://docs.fullctl.com
+Wants=network-online.target
+After=network-online.target
+RequiresMountsFor=%t/containers
+
+[Service]
+Environment=PODMAN_SYSTEMD_UNIT=%n
+#if you need to use a proxy, uncomment and update these lines
+#Environment=http_proxy="http://proxy.local:8080/"
+#Environment=https_proxy="http://proxy.local:8080/"
+Restart=always
+TimeoutStopSec=70
+ExecStartPre=/bin/rm -f %t/%n.ctr-id
+ExecStart=/usr/bin/podman run \
+    --cidfile=%t/%n.ctr-id \
+    --cgroups=no-conmon \
+    --sdnotify=conmon \
+    -d -it \
+    --replace \
+    --env-file /srv/fullctl/rs/.env \
+    --network=host --privileged -p 179:179 \
+    -v /srv/fullctl/rs/bird/etc:/srv/bird/etc:Z \
+    -v /srv/fullctl/rs/bird/var:/srv/bird/var:Z \
+    --name fullctl_routeserver \
+    localhost/fctlrs bird_only  update this for container location Matt Griswold
+ExecStop=/usr/bin/podman stop --ignore --cidfile=%t/%n.ctr-id
+ExecStopPost=/usr/bin/podman rm -f --ignore --cidfile=%t/%n.ctr-id
+Type=notify
+NotifyAccess=all
+
+[Install]
+WantedBy=default.target
+</code></pre>
+<p>Next, create the directory structure needed by fullCtl route servers:</p>
+<pre><code>sudo mkdir -p /srv/fullctl/rs/bird/var/run
+sudo mkdir -p /srv/fullctl/rs/bird/etc
+</code></pre>
+<p>Then edit /srv/fullctl/rs/.env, updating this template as needed:</p>
+<pre><code>FULLCTL_IDENTIFIER=config/routeserver/&lt;YOUR ORGANIZATION&gt;/&lt;YOUR IXP&gt;/&lt;RS IDENTIFIER&gt;
+# create your API keys from the user or organization screen of FullCtl.
+FULLCTL_API_KEY=&lt;YOUR API KEY&gt;
+FULLCTL_URL_ROOT=https://ix.fullctl.com/api
+FCTLRS_IMAGE=quay.io/20c/dev-fctlrs
+</code></pre>
+<p>To download the latest version of the route server container, execute</p>
+<pre><code>sudo podman pull quay.io/20c/dev-fctlrs:latest  add command to push pulled container to local repo here Matt Griswold
+</code></pre>
+<p>Finally, use systemctl to launch the container:</p>
+<pre><code>sudo systemctl start fullctl-routeserver
+</code></pre>
+<p>ixCtl uses a separate systemd process to pull configuration updates from FullCtl. To enable this, crate another systemd service file at /etc/systemd/system/fullctl-birdrefresh.service:</p>
+<pre><code>[Unit]
+Description=FullCtl bird config updater
+Documentation=https://docs.fullctl.com
+Wants=network-online.target
+Requires=fullctl-routeserver.service
+After=network-online.target fullctl-routeserver.service
+RequiresMountsFor=%t/containers
+
+[Service]
+Environment=PODMAN_SYSTEMD_UNIT=%n
+#if you need to use a proxy, uncomment and update these lines
+#Environment=http_proxy="http://proxy.local:8080/"
+#Environment=https_proxy="http://proxy.local:8080/"
+
+Restart=always
+TimeoutStopSec=70
+ExecStartPre=/bin/rm -f %t/%n.ctr-id
+ExecStart=/usr/bin/podman run \
+    --cidfile=%t/%n.ctr-id \
+    --cgroups=no-conmon \
+    --sdnotify=conmon \
+    -d -it \
+    --replace \
+    --env-file /srv/fullctl/rs/.env \
+    -v /srv/fullctl/rs/bird/etc:/srv/bird/etc:Z \
+    -v /srv/fullctl/rs/bird/var:/srv/bird/var:Z \
+    --name fullctl_birdrefresh \
+    localhost/fctlrs watch_config Matt Griswold update container location here
+ExecStop=/usr/bin/podman stop --ignore --cidfile=%t/%n.ctr-id
+ExecStopPost=/usr/bin/podman rm -f --ignore --cidfile=%t/%n.ctr-id
+Type=notify
+NotifyAccess=all
+
+[Install]
+WantedBy=default.target
+</code></pre>
+<p>Then use systemctl to launch the container:</p>
+<pre><code>sudo systemctl start fullctl-birdrefresh
+</code></pre>
+<p>You can use <em>podman ls</em> to confirm your containers are operational. </p>
+<p>Once you’ve confirmed everything is working, use systemctl to enable the fullctl-routeserver and fullctl-birdrefresh services:</p>
+<pre><code>sudo systemctl enable fullctl-routeserver fullctl-birdrefresh
+</code></pre>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/fullctl/docs.fullctl.com/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
